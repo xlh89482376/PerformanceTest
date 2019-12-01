@@ -1,0 +1,2993 @@
+
+----- pid 924 at 2019-11-26 22:00:02 -----
+Cmd line: system_server
+ABI: arm
+Build type: optimized
+Loaded classes: 21725 allocated classes
+Intern table: 13934 strong; 15431 weak
+JNI: CheckJNI is off; globals=2490 (plus 89 weak)
+Libraries: /system/lib/libImmVibeJ.so /system/lib/libSecExternalDisplay_jni.so /system/lib/libanalytics.so /system/lib/libandroid.so /system/lib/libandroid_runtime.so /system/lib/libandroid_servers.so /system/lib/libandroid_ssrm.so /system/lib/libaudioeffect_jni.so /system/lib/libcompiler_rt.so /system/lib/libdmcSmartDP.so /system/lib/libdrmframework_jni.so /system/lib/libedmnativehelperservice.so /system/lib/libjavacrypto.so /system/lib/libjnigraphics.so /system/lib/libknoxvpnfdsender.so /system/lib/libmedia_jni.so /system/lib/libnativemr.so /system/lib/librs_jni.so /system/lib/libseccamera_jni.so /system/lib/libsoundpool.so /system/lib/libterrier.so /system/lib/libwebviewchromium_loader.so /system/lib/libwifi-service.so libjavacore.so (24)
+Heap: 0% free, 59MB/59MB; 766984 objects
+Dumping cumulative Gc timings
+Start Dumping histograms for 70 iterations for concurrent mark sweep
+ProcessMarkStack:	Sum: 7.037s 99% C.I. 0.028ms-169.439ms Avg: 33.509ms Max: 193.858ms
+SweepMallocSpace:	Sum: 4.729s 99% C.I. 0.095ms-472.319ms Avg: 33.779ms Max: 668.694ms
+MarkRootsCheckpoint:	Sum: 1.144s 99% C.I. 0.056ms-51.359ms Avg: 8.171ms Max: 53.411ms
+MarkNonThreadRoots:	Sum: 513.273ms 99% C.I. 0.019ms-90.239ms Avg: 3.666ms Max: 255.806ms
+SweepLargeObjects:	Sum: 462.257ms 99% C.I. 0.010ms-45.159ms Avg: 6.603ms Max: 48.219ms
+MarkConcurrentRoots:	Sum: 454.280ms 99% C.I. 0.003ms-17.439ms Avg: 3.244ms Max: 20.756ms
+AllocSpaceClearCards:	Sum: 392.734ms 99% C.I. 0.001ms-14.519ms Avg: 1.402ms Max: 16.877ms
+UpdateAndMarkImageModUnionTable:	Sum: 385.707ms 99% C.I. 0.196ms-150.079ms Avg: 5.510ms Max: 223.808ms
+MarkAllocStackAsLive:	Sum: 345.568ms 99% C.I. 0.023ms-30.539ms Avg: 4.936ms Max: 35.804ms
+ScanGrayAllocSpaceObjects:	Sum: 265.233ms 99% C.I. 0.001ms-8.339ms Avg: 1.894ms Max: 9.519ms
+FinishPhase:	Sum: 147.936ms 99% C.I. 0.041ms-10.389ms Avg: 2.113ms Max: 11.829ms
+SweepSystemWeaks:	Sum: 143.055ms 99% C.I. 0.010ms-8.689ms Avg: 2.043ms Max: 10.856ms
+EnqueueFinalizerReferences:	Sum: 110.555ms 99% C.I. 0.008ms-10.039ms Avg: 1.579ms Max: 10.420ms
+ReMarkRoots:	Sum: 63.192ms 99% C.I. 30us-1514.999us Avg: 902.742us Max: 1537us
+ImageModUnionClearCards:	Sum: 60.311ms 99% C.I. 190us-1779.999us Avg: 430.792us Max: 2185us
+SweepZygoteSpace:	Sum: 56.410ms 99% C.I. 539us-4550.750us Avg: 895.396us Max: 4808us
+(Paused)ScanGrayAllocSpaceObjects:	Sum: 47.612ms 99% C.I. 1us-1394.999us Avg: 340.085us Max: 1452us
+ZygoteModUnionClearCards:	Sum: 27.205ms 99% C.I. 86us-1354.999us Avg: 215.912us Max: 2275us
+ScanGrayImageSpaceObjects:	Sum: 16.175ms 99% C.I. 144us-512.499us Avg: 231.071us Max: 588us
+(Paused)ScanGrayImageSpaceObjects:	Sum: 15.339ms 99% C.I. 139us-322us Avg: 219.128us Max: 322us
+ProcessReferences:	Sum: 8.696ms 99% C.I. 3us-447.499us Avg: 124.228us Max: 460us
+ScanGrayZygoteSpaceObjects:	Sum: 8.683ms 99% C.I. 69us-1809.750us Avg: 137.825us Max: 2502us
+RevokeAllThreadLocalAllocationStacks:	Sum: 6.655ms 99% C.I. 5us-414.999us Avg: 95.071us Max: 433us
+(Paused)ScanGrayZygoteSpaceObjects:	Sum: 5.655ms 99% C.I. 62us-146us Avg: 89.761us Max: 146us
+SwapBitmaps:	Sum: 3.327ms 99% C.I. 7us-329.999us Avg: 47.528us Max: 366us
+ProcessCards:	Sum: 2.671ms 99% C.I. 7us-81us Avg: 19.078us Max: 81us
+(Paused)PausePhase:	Sum: 1.886ms 99% C.I. 14us-51us Avg: 26.942us Max: 51us
+MarkingPhase:	Sum: 1.761ms 99% C.I. 12us-70us Avg: 25.157us Max: 70us
+PreCleanCards:	Sum: 1.731ms 99% C.I. 13us-114.999us Avg: 24.728us Max: 133us
+InitializePhase:	Sum: 1.358ms 99% C.I. 1us-93us Avg: 19.400us Max: 93us
+Sweep:	Sum: 1.217ms 99% C.I. 6us-67us Avg: 17.385us Max: 67us
+FindDefaultSpaceBitmap:	Sum: 1.170ms 99% C.I. 1us-699.999us Avg: 16.714us Max: 1034us
+MarkRoots:	Sum: 1.116ms 99% C.I. 5us-56us Avg: 15.942us Max: 56us
+ReclaimPhase:	Sum: 1.077ms 99% C.I. 9us-34us Avg: 15.385us Max: 34us
+RecursiveMark:	Sum: 394us 99% C.I. 3us-12us Avg: 5.628us Max: 12us
+SwapStacks:	Sum: 316us 99% C.I. 2us-30us Avg: 4.514us Max: 30us
+BindBitmaps:	Sum: 269us 99% C.I. 1us-13us Avg: 3.842us Max: 13us
+UnBindBitmaps:	Sum: 146us 99% C.I. 1us-29us Avg: 2.085us Max: 29us
+(Paused)ProcessMarkStack:	Sum: 102us 99% C.I. 0.250us-7us Avg: 1.457us Max: 7us
+PreSweepingGcVerification:	Sum: 64us 99% C.I. 250ns-2000ns Avg: 914ns Max: 2000ns
+Done Dumping histograms 
+concurrent mark sweep paused:	Sum: 147.480ms 99% C.I. 0.268ms-3.600ms Avg: 2.106ms Max: 3.600ms
+concurrent mark sweep total time: 16.465s mean time: 235.219ms
+concurrent mark sweep freed: 14463802 objects with total size 1GB
+concurrent mark sweep throughput: 878457/s / 64MB/s
+Start Dumping histograms for 21 iterations for sticky concurrent mark sweep
+FreeList:	Sum: 2.159s 99% C.I. 11.793us-447.612us Avg: 107.478us Max: 3315us
+ScanGrayAllocSpaceObjects:	Sum: 1.275s 99% C.I. 0.014ms-87.167ms Avg: 15.184ms Max: 90.215ms
+SweepArray:	Sum: 1.048s 99% C.I. 15.733ms-70.145ms Avg: 49.906ms Max: 70.145ms
+AllocSpaceClearCards:	Sum: 528.342ms 99% C.I. 0.013ms-39.375ms Avg: 6.289ms Max: 42.187ms
+ProcessMarkStack:	Sum: 310.831ms 99% C.I. 0.003ms-25.519ms Avg: 3.700ms Max: 27.053ms
+MarkRootsCheckpoint:	Sum: 242.946ms 99% C.I. 0.212ms-18.432ms Avg: 5.784ms Max: 18.514ms
+MarkConcurrentRoots:	Sum: 150.430ms 99% C.I. 0.004ms-16.106ms Avg: 3.581ms Max: 16.221ms
+ResetStack:	Sum: 95.367ms 99% C.I. 1.165ms-9.359ms Avg: 4.541ms Max: 9.711ms
+EnqueueFinalizerReferences:	Sum: 67.828ms 99% C.I. 0.009ms-5.605ms Avg: 3.229ms Max: 5.695ms
+MarkingPhase:	Sum: 48.707ms 99% C.I. 0.286ms-8.400ms Avg: 2.319ms Max: 8.500ms
+SweepSystemWeaks:	Sum: 33.172ms 99% C.I. 1.179ms-3.200ms Avg: 1.579ms Max: 3.298ms
+ImageModUnionClearCards:	Sum: 27.321ms 99% C.I. 192us-2924.500us Avg: 650.500us Max: 3229us
+ReMarkRoots:	Sum: 21.395ms 99% C.I. 0.125ms-1.642ms Avg: 1.018ms Max: 1.695ms
+(Paused)ScanGrayAllocSpaceObjects:	Sum: 15.845ms 99% C.I. 3us-890us Avg: 377.261us Max: 890us
+MarkNonThreadRoots:	Sum: 14.295ms 99% C.I. 14us-1700.500us Avg: 340.357us Max: 1898us
+ZygoteModUnionClearCards:	Sum: 11.312ms 99% C.I. 86us-808us Avg: 269.333us Max: 840us
+ScanGrayImageSpaceObjects:	Sum: 11.271ms 99% C.I. 150us-1061us Avg: 268.357us Max: 1220us
+(Paused)ScanGrayImageSpaceObjects:	Sum: 5.349ms 99% C.I. 149us-800us Avg: 254.714us Max: 800us
+FinishPhase:	Sum: 4.226ms 99% C.I. 78us-429us Avg: 201.238us Max: 439us
+ScanGrayZygoteSpaceObjects:	Sum: 4.179ms 99% C.I. 61us-161us Avg: 99.500us Max: 161us
+RevokeAllThreadLocalAllocationStacks:	Sum: 1.959ms 99% C.I. 54us-120us Avg: 93.285us Max: 120us
+(Paused)ScanGrayZygoteSpaceObjects:	Sum: 1.940ms 99% C.I. 65us-100us Avg: 92.380us Max: 100us
+ProcessCards:	Sum: 1.130ms 99% C.I. 10us-66us Avg: 26.904us Max: 66us
+ForwardSoftReferences:	Sum: 842us 99% C.I. 2us-721.250us Avg: 40.095us Max: 777us
+ProcessReferences:	Sum: 542us 99% C.I. 7us-55us Avg: 25.809us Max: 55us
+(Paused)PausePhase:	Sum: 510us 99% C.I. 20us-41us Avg: 24.285us Max: 41us
+PreCleanCards:	Sum: 486us 99% C.I. 16us-26us Avg: 23.142us Max: 26us
+MarkRoots:	Sum: 464us 99% C.I. 7us-47us Avg: 22.095us Max: 47us
+ReclaimPhase:	Sum: 311us 99% C.I. 12us-22us Avg: 14.809us Max: 22us
+BindBitmaps:	Sum: 201us 99% C.I. 2us-15us Avg: 9.571us Max: 15us
+InitializePhase:	Sum: 198us 99% C.I. 1us-21us Avg: 9.428us Max: 21us
+SwapBitmaps:	Sum: 172us 99% C.I. 5us-30us Avg: 8.190us Max: 30us
+FindDefaultSpaceBitmap:	Sum: 168us 99% C.I. 2us-13us Avg: 8us Max: 13us
+SwapStacks:	Sum: 88us 99% C.I. 3us-6us Avg: 4.190us Max: 6us
+RecordFree:	Sum: 64us 99% C.I. 2us-6us Avg: 3.047us Max: 6us
+UnBindBitmaps:	Sum: 61us 99% C.I. 2us-6us Avg: 2.904us Max: 6us
+(Paused)ProcessMarkStack:	Sum: 21us 99% C.I. 1us-1us Avg: 1us Max: 1us
+Done Dumping histograms 
+sticky concurrent mark sweep paused:	Sum: 48.920ms 99% C.I. 0.743ms-2.944ms Avg: 2.329ms Max: 2.944ms
+sticky concurrent mark sweep total time: 6.085s mean time: 289.782ms
+sticky concurrent mark sweep freed: 20568219 objects with total size 1GB
+sticky concurrent mark sweep throughput: 3.38015e+06/s / 254MB/s
+Total time spent in GC: 22.550s
+Mean GC size throughput: 91MB/s
+Mean GC object throughput: 1.55419e+06 objects/s
+Total number of allocations 35815154
+Total bytes allocated 2GB
+Free memory 0B
+Free memory until GC 3GB
+Free memory until OOME 452MB
+Total memory 59MB
+Max memory 512MB
+Total mutator paused time: 196.400ms
+Total time waiting for GC to complete: 63.319ms
+
+DALVIK THREADS (139):
+"main" prio=5 tid=1 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x76ef2f88 self=0xb4f07800
+  | sysTid=924 nice=-2 cgrp=apps sched=0/0 handle=0xb6f57ec8
+  | state=S schedstat=( 819365395703 1739776622033 1121530 ) utm=36604 stm=45332 core=3 HZ=100
+  | stack=0xbe5d8000-0xbe5da000 stackSize=8MB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:19893)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at android.app.ActivityManagerNative.broadcastStickyIntent(ActivityManagerNative.java:104)
+  at com.android.server.BatteryService$10.run(BatteryService.java:1098)
+  at android.os.Handler.handleCallback(Handler.java:739)
+  at android.os.Handler.dispatchMessage(Handler.java:95)
+  at android.os.Looper.loop(Looper.java:145)
+  at com.android.server.SystemServer.run(SystemServer.java:430)
+  at com.android.server.SystemServer.main(SystemServer.java:315)
+  at java.lang.reflect.Method.invoke!(Native method)
+  at java.lang.reflect.Method.invoke(Method.java:372)
+  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1400)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1195)
+
+"Signal Catcher" daemon prio=5 tid=2 Runnable
+  | group="system" sCount=0 dsCount=0 obj=0x12c02080 self=0xaf90e400
+  | sysTid=931 nice=0 cgrp=apps sched=0/0 handle=0xafe11080
+  | state=R schedstat=( 845609441 610018257317 24798 ) utm=5 stm=79 core=0 HZ=100
+  | stack=0xb46ff000-0xb4701000 stackSize=1012KB
+  | held mutexes= "thread list lock" "mutator lock"(exclusive held)
+  native: #00 pc 00004640  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+  native: #01 pc 00002e8d  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+  native: #02 pc 002482b9  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+68)
+  native: #03 pc 0022d0b3  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+146)
+  native: #04 pc 00235c73  /system/lib/libart.so (art::ThreadList::DumpForSigQuit(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+142)
+  native: #05 pc 0021c247  /system/lib/libart.so (art::Runtime::DumpForSigQuit(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+66)
+  native: #06 pc 00222167  /system/lib/libart.so (art::SignalCatcher::HandleSigQuit()+774)
+  native: #07 pc 0022281f  /system/lib/libart.so (art::SignalCatcher::Run(void*)+322)
+  native: #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"ReferenceQueueDaemon" daemon prio=5 tid=3 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x12c05080 self=0xb4f07400
+  | sysTid=932 nice=0 cgrp=apps sched=0/0 handle=0xafe11300
+  | state=S schedstat=( 2565841755 612163492918 28011 ) utm=116 stm=140 core=3 HZ=100
+  | stack=0xb45f5000-0xb45f7000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2caab0d2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:133)
+  - locked <0x2caab0d2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerDaemon" daemon prio=5 tid=4 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x12c050e0 self=0xb4f07c00
+  | sysTid=933 nice=0 cgrp=apps sched=0/0 handle=0xafe11580
+  | state=S schedstat=( 6140713804 614067005420 33947 ) utm=388 stm=226 core=3 HZ=100
+  | stack=0xb44eb000-0xb44ed000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1af975a3> (a java.lang.ref.ReferenceQueue)
+  at java.lang.Object.wait(Object.java:422)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+  - locked <0x1af975a3> (a java.lang.ref.ReferenceQueue)
+  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:173)
+  at java.lang.Thread.run(Thread.java:818)
+
+"FinalizerWatchdogDaemon" daemon prio=5 tid=5 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x12c05140 self=0xb4f08000
+  | sysTid=934 nice=0 cgrp=apps sched=0/0 handle=0xafe11800
+  | state=S schedstat=( 782646797 612262785087 25215 ) utm=0 stm=78 core=3 HZ=100
+  | stack=0xb43e1000-0xb43e3000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1d20f0a0> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:239)
+  - locked <0x1d20f0a0> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:211)
+  at java.lang.Thread.run(Thread.java:818)
+
+"HeapTrimmerDaemon" daemon prio=5 tid=6 Sleeping
+  | group="system" sCount=1 dsCount=0 obj=0x12c051a0 self=0xb4f08400
+  | sysTid=935 nice=0 cgrp=apps sched=0/0 handle=0xafe11a80
+  | state=S schedstat=( 4096892277 613859058692 25935 ) utm=35 stm=374 core=3 HZ=100
+  | stack=0xb42d7000-0xb42d9000 stackSize=1036KB
+  | held mutexes=
+  at dalvik.system.VMRuntime.trimHeap(Native method)
+  - sleeping on an unknown object
+  at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:312)
+  at java.lang.Thread.run(Thread.java:818)
+
+"GCDaemon" daemon prio=5 tid=7 Waiting
+  | group="system" sCount=1 dsCount=0 obj=0x12c05200 self=0xb4f08800
+  | sysTid=936 nice=0 cgrp=apps sched=0/0 handle=0xafe11d00
+  | state=S schedstat=( 707637809 612198317375 24788 ) utm=0 stm=70 core=0 HZ=100
+  | stack=0xb41cd000-0xb41cf000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2c176459> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Daemons$GCDaemon.run(Daemons.java:341)
+  - locked <0x2c176459> (a java.lang.Daemons$GCDaemon)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Binder_1" prio=5 tid=8 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12c49080 self=0xaeb06400
+  | sysTid=938 nice=0 cgrp=apps sched=0/0 handle=0xafe11f80
+  | state=S schedstat=( 27875513417 710893273289 106367 ) utm=1548 stm=1239 core=0 HZ=100
+  | stack=0xb3ccb000-0xb3ccd000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/938/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_2" prio=5 tid=9 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12c4d080 self=0xad56cc00
+  | sysTid=940 nice=0 cgrp=apps sched=0/0 handle=0xaeb26080
+  | state=S schedstat=( 74492739686 642356119072 136619 ) utm=5861 stm=1588 core=0 HZ=100
+  | stack=0xb3bc7000-0xb3bc9000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/940/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"android.bg" prio=5 tid=16 Native
+  | group="main" sCount=1 dsCount=0 obj=0x1306e350 self=0xb4f0bc00
+  | sysTid=1031 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xafe14c80
+  | state=S schedstat=( 177113144894 1580122606836 95892 ) utm=4467 stm=13244 core=3 HZ=100
+  | stack=0x9fe00000-0x9fe02000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1031/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"SensorService" prio=10 tid=17 Native
+  | group="main" sCount=1 dsCount=0 obj=0x130b7080 self=0xaf94b400
+  | sysTid=1030 nice=-8 cgrp=apps sched=0/0 handle=0xafe16080
+  | state=S schedstat=( 467974918889 850813369671 735160 ) utm=11449 stm=35348 core=0 HZ=100
+  | stack=0x9ff04000-0x9ff06000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1030/stack)
+  native: #00 pc 000378d4  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 00012f19  /system/lib/libc.so (poll+32)
+  native: #02 pc 00004f1d  /system/lib/hw/sensors.msm8974.so (sensors_poll_context_t::pollEvents(sensors_event_t*, int)+132)
+  native: #03 pc 000087a9  /system/lib/libsensorservice.so (???)
+  native: #04 pc 0000c3ff  /system/lib/libsensorservice.so (???)
+  native: #05 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #06 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #07 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"SensorEventAckReceiver" prio=10 tid=18 Native
+  | group="main" sCount=1 dsCount=0 obj=0x130bc080 self=0xaf515400
+  | sysTid=1034 nice=-8 cgrp=apps sched=0/0 handle=0xaf967080
+  | state=S schedstat=( 862062752 624580252273 24838 ) utm=17 stm=69 core=0 HZ=100
+  | stack=0xa0130000-0xa0132000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1034/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 0000ba5d  /system/lib/libsensorservice.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"ActivityManager" prio=5 tid=19 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x1306e740 self=0xb4f0c000
+  | sysTid=1035 nice=-2 cgrp=apps sched=0/0 handle=0xafe14f00
+  | state=S schedstat=( 254652244515 822092768553 275591 ) utm=10573 stm=14892 core=0 HZ=100
+  | stack=0x9fcfc000-0x9fcfe000 stackSize=1036KB
+  | held mutexes=
+  at com.android.server.am.BroadcastQueue.processNextBroadcast(BroadcastQueue.java:656)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at com.android.server.am.BroadcastQueue$BroadcastHandler.handleMessage(BroadcastQueue.java:193)
+  at android.os.Handler.dispatchMessage(Handler.java:102)
+  at android.os.Looper.loop(Looper.java:145)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"FileObserver" prio=5 tid=20 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132cfd60 self=0xb4f0c400
+  | sysTid=1050 nice=0 cgrp=apps sched=0/0 handle=0xafe15180
+  | state=S schedstat=( 990385875 633381633416 25251 ) utm=17 stm=82 core=0 HZ=100
+  | stack=0x9f9fe000-0x9fa00000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1050/stack)
+  native: #00 pc 00037ae8  /system/lib/libc.so (read+12)
+  native: #01 pc 000a9dd5  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 0001a8cf  /system/framework/arm/boot.oat (Java_android_os_FileObserver_00024ObserverThread_observe__I+86)
+  at android.os.FileObserver$ObserverThread.observe(Native method)
+  at android.os.FileObserver$ObserverThread.run(FileObserver.java:85)
+
+"android.fg" prio=5 tid=21 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x132c8a50 self=0xb4f0c800
+  | sysTid=1051 nice=0 cgrp=apps sched=0/0 handle=0xafe15400
+  | state=S schedstat=( 3445453474 648390381586 39885 ) utm=123 stm=221 core=0 HZ=100
+  | stack=0x9f41d000-0x9f41f000 stackSize=1036KB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.monitor(ActivityManagerService.java:22708)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at com.android.server.Watchdog$HandlerChecker.run(Watchdog.java:178)
+  at android.os.Handler.handleCallback(Handler.java:739)
+  at android.os.Handler.dispatchMessage(Handler.java:95)
+  at android.os.Looper.loop(Looper.java:145)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.ui" prio=5 tid=22 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132c8ac0 self=0xb4f0cc00
+  | sysTid=1052 nice=-2 cgrp=apps sched=0/0 handle=0xafe15680
+  | state=S schedstat=( 220977785530 898872238521 482871 ) utm=13996 stm=8101 core=0 HZ=100
+  | stack=0x9f1fe000-0x9f200000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1052/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.io" prio=5 tid=23 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132c8ba0 self=0xb4f0d000
+  | sysTid=1053 nice=0 cgrp=apps sched=0/0 handle=0xafe15900
+  | state=S schedstat=( 3582954126 643086520667 32980 ) utm=113 stm=245 core=2 HZ=100
+  | stack=0x9f541000-0x9f543000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1053/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"android.display" prio=5 tid=24 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132c8c10 self=0xb4f0d400
+  | sysTid=1054 nice=-4 cgrp=apps sched=0/0 handle=0xafe15b80
+  | state=S schedstat=( 166104629734 970921857202 444381 ) utm=9869 stm=6741 core=0 HZ=100
+  | stack=0x9f0f8000-0x9f0fa000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1054/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"CpuTracker" prio=5 tid=25 TimedWaiting
+  | group="main" sCount=1 dsCount=0 obj=0x132f9be0 self=0xb4f0dc00
+  | sysTid=1055 nice=0 cgrp=apps sched=0/0 handle=0xafe15e00
+  | state=S schedstat=( 5148893079 641112375481 25769 ) utm=192 stm=322 core=0 HZ=100
+  | stack=0x9eed0000-0x9eed2000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x1c5f081e> (a com.android.server.am.ActivityManagerService$4)
+  at java.lang.Object.wait(Object.java:422)
+  at com.android.server.am.ActivityManagerService$4.run(ActivityManagerService.java:3081)
+  - locked <0x1c5f081e> (a com.android.server.am.ActivityManagerService$4)
+
+"PowerManagerService" prio=5 tid=26 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13372390 self=0xb4f0e000
+  | sysTid=1056 nice=-4 cgrp=apps sched=0/0 handle=0xafe16300
+  | state=S schedstat=( 11446997926 654682933141 95586 ) utm=431 stm=713 core=3 HZ=100
+  | stack=0x9edcc000-0x9edce000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1056/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"[smart stay] " prio=5 tid=27 Native
+  | group="main" sCount=1 dsCount=0 obj=0x133724e0 self=0xb4f0e400
+  | sysTid=1057 nice=0 cgrp=apps sched=0/0 handle=0xafe16580
+  | state=S schedstat=( 1259512145 644408627952 26274 ) utm=34 stm=91 core=0 HZ=100
+  | stack=0x9eb9c000-0x9eb9e000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1057/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"BatteryStats_wakeupReason" prio=5 tid=28 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13372d30 self=0xb4f0e800
+  | sysTid=1059 nice=-2 cgrp=apps sched=0/0 handle=0xafe16a80
+  | state=S schedstat=( 6131713536 641909070271 42048 ) utm=217 stm=396 core=0 HZ=100
+  | stack=0x9f6fe000-0x9f700000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1059/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 00014023  /system/lib/libc.so (__futex_wait_ex+42)
+  native: #02 pc 0004f2e9  /system/lib/libc.so (sem_wait+50)
+  native: #03 pc 000113c7  /system/lib/libandroid_servers.so (???)
+  native: #04 pc 0034e629  /system/framework/arm/services.odex (Java_com_android_server_am_BatteryStatsService_nativeWaitWakeup___3I_3Ljava_lang_String_2+120)
+  at com.android.server.am.BatteryStatsService.nativeWaitWakeup(Native method)
+  at com.android.server.am.BatteryStatsService.access$200(BatteryStatsService.java:58)
+  at com.android.server.am.BatteryStatsService$WakeupReasonThread.run(BatteryStatsService.java:717)
+
+"PackageManager" prio=5 tid=29 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13373f20 self=0xb4f0ec00
+  | sysTid=1060 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xafe16d00
+  | state=S schedstat=( 1738707259 1372814968471 26036 ) utm=57 stm=116 core=0 HZ=100
+  | stack=0x9ecbf000-0x9ecc1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1060/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+  at com.android.server.ServiceThread.run(ServiceThread.java:46)
+
+"EnterprisePartitionManager" prio=5 tid=30 Native
+  | group="main" sCount=1 dsCount=0 obj=0x133ec760 self=0xb4f0f000
+  | sysTid=1061 nice=0 cgrp=apps sched=0/0 handle=0xafe16f80
+  | state=S schedstat=( 760745392 641776242741 24769 ) utm=1 stm=75 core=0 HZ=100
+  | stack=0x9e5a3000-0x9e5a5000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1061/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x13469080> (a java.lang.Object)
+  at com.sec.knox.container.util.DaemonConnector.listenToSocket(DaemonConnector.java:128)
+  at com.sec.knox.container.util.DaemonConnector.run(DaemonConnector.java:86)
+  at java.lang.Thread.run(Thread.java:818)
+
+"EnterprisePartitionManager.CallbackHandler" prio=5 tid=31 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13462080 self=0xa0747400
+  | sysTid=1062 nice=0 cgrp=apps sched=0/0 handle=0xa073a100
+  | state=S schedstat=( 943514836 643266656511 24985 ) utm=13 stm=81 core=0 HZ=100
+  | stack=0x9e49f000-0x9e4a1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1062/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"PersonaManagerService" prio=5 tid=32 Native
+  | group="main" sCount=1 dsCount=0 obj=0x134485f0 self=0xb4f0f400
+  | sysTid=1063 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xafe17200
+  | state=S schedstat=( 811621751 1373682329082 25172 ) utm=20 stm=61 core=1 HZ=100
+  | stack=0x9e08b000-0x9e08d000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1063/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"PackageInstaller" prio=5 tid=10 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13349940 self=0xb4f09000
+  | sysTid=1077 nice=0 cgrp=apps sched=0/0 handle=0xafe12200
+  | state=S schedstat=( 918283036 647232226785 25074 ) utm=20 stm=71 core=0 HZ=100
+  | stack=0xb3aa9000-0xb3aab000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1077/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"mSvcLEDThread" prio=5 tid=11 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12c3b510 self=0xb4f09400
+  | sysTid=1078 nice=0 cgrp=apps sched=0/0 handle=0xafe12480
+  | state=S schedstat=( 4065804474 656538539998 27770 ) utm=113 stm=293 core=1 HZ=100
+  | stack=0xafcde000-0xafce0000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1078/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"SEAMService" prio=5 tid=12 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12df7510 self=0xb4f09800
+  | sysTid=1079 nice=0 cgrp=apps sched=0/0 handle=0xafe13380
+  | state=S schedstat=( 975638278 647936982544 25014 ) utm=21 stm=76 core=0 HZ=100
+  | stack=0xafbda000-0xafbdc000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1079/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"SPD" prio=5 tid=13 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12df75f0 self=0xb4f0b000
+  | sysTid=1080 nice=0 cgrp=apps sched=0/0 handle=0xafe13d80
+  | state=S schedstat=( 923782313 649509213054 25077 ) utm=20 stm=72 core=0 HZ=100
+  | stack=0xaf6fe000-0xaf700000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1080/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ReactiveServiceAt" prio=5 tid=14 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fdbca0 self=0xb4f10800
+  | sysTid=1085 nice=0 cgrp=apps sched=0/0 handle=0xafe17700
+  | state=S schedstat=( 778259752 650787384454 24898 ) utm=0 stm=77 core=0 HZ=100
+  | stack=0xaecfe000-0xaed00000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1085/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x1349a440> (a java.lang.Object)
+  at java.io.InputStreamReader.read(InputStreamReader.java:231)
+  - locked <@addr=0x134e3090> (a android.net.LocalSocketImpl$SocketInputStream)
+  at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+  at java.io.BufferedReader.readLine(BufferedReader.java:397)
+  - locked <@addr=0x1381b140> (a java.io.InputStreamReader)
+  at com.android.server.ReactiveService$AtCmdHandlingProcess.run(ReactiveService.java:685)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ReactiveServiceData" prio=5 tid=15 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fdbd60 self=0xb4f10400
+  | sysTid=1086 nice=0 cgrp=apps sched=0/0 handle=0xafe17480
+  | state=S schedstat=( 720345185 647973726782 24797 ) utm=1 stm=71 core=0 HZ=100
+  | stack=0xa0bfe000-0xa0c00000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1086/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x1349a480> (a java.lang.Object)
+  at java.io.InputStreamReader.read(InputStreamReader.java:231)
+  - locked <@addr=0x1350b090> (a android.net.LocalSocketImpl$SocketInputStream)
+  at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+  at java.io.BufferedReader.readLine(BufferedReader.java:397)
+  - locked <@addr=0x1381d060> (a java.io.InputStreamReader)
+  at com.android.server.ReactiveService$AtCmdHandlingProcess.run(ReactiveService.java:685)
+  at java.lang.Thread.run(Thread.java:818)
+
+"UEventObserver" prio=5 tid=33 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fdbdc0 self=0xb4f10c00
+  | sysTid=1087 nice=0 cgrp=apps sched=0/0 handle=0xafe17980
+  | state=S schedstat=( 4455548386 683248837644 45327 ) utm=203 stm=242 core=3 HZ=100
+  | stack=0xa08fe000-0xa0900000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1087/stack)
+  native: #00 pc 000378d4  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 00012f19  /system/lib/libc.so (poll+32)
+  native: #02 pc 00001cbd  /system/lib/libhardware_legacy.so (uevent_next_event+52)
+  native: #03 pc 00084b77  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00000bf1  /system/framework/arm/boot.oat (Java_android_os_UEventObserver_nativeWaitForNextEvent__+80)
+  at android.os.UEventObserver.nativeWaitForNextEvent(Native method)
+  at android.os.UEventObserver.access$100(UEventObserver.java:41)
+  at android.os.UEventObserver$UEventThread.run(UEventObserver.java:182)
+
+"TimaService" prio=5 tid=34 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fa9e40 self=0xb4f12000
+  | sysTid=1089 nice=0 cgrp=apps sched=0/0 handle=0xafe18100
+  | state=S schedstat=( 1050051423 654961270801 25538 ) utm=27 stm=78 core=0 HZ=100
+  | stack=0x9e39b000-0x9e39d000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1089/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Timer-0" prio=5 tid=35 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fa9f90 self=0xb4f12400
+  | sysTid=1090 nice=0 cgrp=apps sched=0/0 handle=0xafe18380
+  | state=S schedstat=( 306777268022 708790767037 147143 ) utm=334 stm=30343 core=0 HZ=100
+  | stack=0x9e297000-0x9e299000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1090/stack)
+  native: #00 pc 00037844  /system/lib/libc.so (__ioctl+12)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 00001991  /system/vendor/lib/libQSEEComAPI.so (QSEECom_send_cmd+104)
+  native: #03 pc 00000c45  /system/lib/libtlc_comm.so (comm_request(comm_ctx*, unsigned int)+80)
+  native: #04 pc 00000e53  /system/lib/libtlc_tima_pkm.so (TIMA_PKM_measure_kernel_TLC(tlc_tima_pkm_ctx*, tima_gen_resp_t*)+26)
+  native: #05 pc 0001ec23  /system/lib/libandroid_servers.so (???)
+  native: #06 pc 001e4c49  /system/framework/arm/services.odex (Java_com_android_server_TimaService_timaCheckEvent__II+88)
+  at com.android.server.TimaService.timaCheckEvent(Native method)
+  at com.android.server.TimaService.checkEvent(TimaService.java:290)
+  - locked <@addr=0x13bb2d80> (a com.android.server.TimaService)
+  at com.android.server.TimaService$1.run(TimaService.java:230)
+  at java.util.Timer$TimerImpl.run(Timer.java:284)
+
+"SmartFaceService Listener Handler" prio=5 tid=36 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fb1890 self=0xb4f13000
+  | sysTid=1096 nice=0 cgrp=apps sched=0/0 handle=0xafe18600
+  | state=S schedstat=( 926491263 656413884166 25170 ) utm=18 stm=74 core=0 HZ=100
+  | stack=0x9e193000-0x9e195000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1096/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CameraController Main Handler" prio=5 tid=37 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fb8080 self=0xb4f12c00
+  | sysTid=1097 nice=0 cgrp=apps sched=0/0 handle=0xafe18880
+  | state=S schedstat=( 1223511914 656887586196 26023 ) utm=32 stm=90 core=0 HZ=100
+  | stack=0x9dde4000-0x9dde6000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1097/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CameraController Callback Handler" prio=5 tid=38 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fb80f0 self=0xb4f13400
+  | sysTid=1098 nice=0 cgrp=apps sched=0/0 handle=0xafe17e80
+  | state=S schedstat=( 1043850472 658832921573 25541 ) utm=26 stm=78 core=2 HZ=100
+  | stack=0x9dce0000-0x9dce2000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1098/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Scroll/Pause Worker" prio=5 tid=39 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12ea7890 self=0xb4f13800
+  | sysTid=1099 nice=0 cgrp=apps sched=0/0 handle=0xafe18b00
+  | state=S schedstat=( 908725621 664157445621 25255 ) utm=15 stm=75 core=0 HZ=100
+  | stack=0x9dbdc000-0x9dbde000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1099/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Stay/Rotation Worker" prio=5 tid=40 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13062920 self=0xb4f14400
+  | sysTid=1100 nice=0 cgrp=apps sched=0/0 handle=0xafe18d80
+  | state=S schedstat=( 6300643803 667641501596 28704 ) utm=512 stm=118 core=2 HZ=100
+  | stack=0x9dad8000-0x9dada000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1100/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AlarmManager" prio=5 tid=41 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x13195ec0 self=0xb4f15000
+  | sysTid=1101 nice=0 cgrp=apps sched=0/0 handle=0xa001fd00
+  | state=S schedstat=( 28110252553 765831189706 94551 ) utm=1918 stm=893 core=3 HZ=100
+  | stack=0x9c299000-0x9c29b000 stackSize=1036KB
+  | held mutexes=
+  at com.android.server.am.PendingIntentRecord.sendInner(PendingIntentRecord.java:205)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at com.android.server.am.PendingIntentRecord.send(PendingIntentRecord.java:197)
+  at android.app.PendingIntent.send(PendingIntent.java:733)
+  at android.app.PendingIntent.send(PendingIntent.java:687)
+  at com.android.server.AlarmManagerService.deliverAlarmsLocked(AlarmManagerService.java:2085)
+  at com.android.server.AlarmManagerService$AlarmThread.run(AlarmManagerService.java:2260)
+  - locked <0x2e23c8ff> (a java.lang.Object)
+
+"context_aware" prio=5 tid=42 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fc5430 self=0xb4f15400
+  | sysTid=1102 nice=0 cgrp=apps sched=0/0 handle=0xa0020200
+  | state=S schedstat=( 1033526938 670461385055 25474 ) utm=17 stm=86 core=0 HZ=100
+  | stack=0x9c195000-0x9c197000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1102/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"com.samsung.android.sensorhub.SensorHubManager$SensorHubThread" prio=5 tid=43 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13196760 self=0xb4f15800
+  | sysTid=1103 nice=-8 cgrp=apps sched=0/0 handle=0xa0020480
+  | state=S schedstat=( 895053497 665190780313 25307 ) utm=11 stm=78 core=0 HZ=100
+  | stack=0x9c091000-0x9c093000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1103/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00007a2b  /system/lib/libsensorhub.so (android::SensorHubEventQueue::waitForEvent() const+34)
+  native: #06 pc 000b8217  /system/lib/libandroid_runtime.so (???)
+  native: #07 pc 018178d3  /system/framework/arm/boot.oat (Java_com_samsung_android_sensorhub_SensorHubManager_sensorhubs_1data_1poll__J_3B_3I_3I_3I_3F_3JI+258)
+  at com.samsung.android.sensorhub.SensorHubManager.sensorhubs_data_poll(Native method)
+  at com.samsung.android.sensorhub.SensorHubManager$SensorHubThread$SensorHubThreadRunnable.run(SensorHubManager.java:185)
+  at java.lang.Thread.run(Thread.java:818)
+
+"scontext" prio=5 tid=44 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fc5970 self=0xb4f15c00
+  | sysTid=1104 nice=0 cgrp=apps sched=0/0 handle=0xa0020700
+  | state=S schedstat=( 975453481 671413418292 25357 ) utm=22 stm=75 core=0 HZ=100
+  | stack=0x9bf8d000-0x9bf8f000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1104/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-64" prio=5 tid=45 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fc5ac0 self=0xb4f16000
+  | sysTid=1105 nice=0 cgrp=apps sched=0/0 handle=0xa0020980
+  | state=S schedstat=( 929304359 673255217977 25394 ) utm=14 stm=78 core=0 HZ=100
+  | stack=0x9be89000-0x9be8b000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1105/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.app.BarBeamService$CheckStatusThread.run(BarBeamService.java:184)
+
+"InputDispatcher" prio=10 tid=46 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13320080 self=0x9f826400
+  | sysTid=1106 nice=-8 cgrp=apps sched=0/0 handle=0xa0020c00
+  | state=S schedstat=( 549402700721 1336196928933 1722210 ) utm=23112 stm=31828 core=0 HZ=100
+  | stack=0x9bb8b000-0x9bb8d000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1106/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 000252cf  /system/lib/libinputflinger.so (android::InputDispatcher::dispatchOnce()+98)
+  native: #06 pc 0001e449  /system/lib/libinputflinger.so (android::InputDispatcherThread::threadLoop()+8)
+  native: #07 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #08 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #09 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #10 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #11 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"InputReader" prio=10 tid=47 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13326260 self=0xa0421400
+  | sysTid=1107 nice=-8 cgrp=apps sched=0/0 handle=0xa0020e80
+  | state=S schedstat=( 188440200697 1343172679973 1167240 ) utm=6499 stm=12345 core=0 HZ=100
+  | stack=0x9ba8d000-0x9ba8f000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1107/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 0001e0c1  /system/lib/libinputflinger.so (android::EventHub::getEvents(int, android::RawEvent*, unsigned int)+1088)
+  native: #04 pc 00032403  /system/lib/libinputflinger.so (android::InputReader::loopOnce()+146)
+  native: #05 pc 00026fe9  /system/lib/libinputflinger.so (android::InputReaderThread::threadLoop()+8)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"MDMAppUsageHandlerThread" prio=5 tid=48 Native
+  | group="main" sCount=1 dsCount=0 obj=0x133d89b0 self=0x9b629400
+  | sysTid=1110 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xa0021100
+  | state=S schedstat=( 1449808781 1381781124721 25915 ) utm=55 stm=89 core=0 HZ=100
+  | stack=0x9b3fe000-0x9b400000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1110/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"motion_recognition" prio=5 tid=49 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13373190 self=0xb4f16800
+  | sysTid=1111 nice=0 cgrp=apps sched=0/0 handle=0x9b673100
+  | state=S schedstat=( 1021598309 671101378956 25129 ) utm=13 stm=89 core=0 HZ=100
+  | stack=0x9b2b1000-0x9b2b3000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1111/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-71" prio=5 tid=50 Native
+  | group="main" sCount=1 dsCount=0 obj=0x133735f0 self=0x9b628800
+  | sysTid=1112 nice=0 cgrp=apps sched=0/0 handle=0x9b673380
+  | state=S schedstat=( 967806470 672507875716 25138 ) utm=15 stm=81 core=0 HZ=100
+  | stack=0x9b1ad000-0x9b1af000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1112/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at com.samsung.android.motion.MotionRecognitionReactiveAlert$PollIntThread.run(MotionRecognitionReactiveAlert.java:148)
+
+"sensorThread" prio=5 tid=51 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13428710 self=0x9b628c00
+  | sysTid=1113 nice=0 cgrp=apps sched=0/0 handle=0x9b673600
+  | state=S schedstat=( 932586504 675203852368 25165 ) utm=17 stm=76 core=0 HZ=100
+  | stack=0x9b0a9000-0x9b0ab000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1113/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-73" prio=5 tid=52 Native
+  | group="main" sCount=1 dsCount=0 obj=0x134f3760 self=0x9b662400
+  | sysTid=1114 nice=0 cgrp=apps sched=0/0 handle=0x9b673880
+  | state=S schedstat=( 2742344723 702213949001 26611 ) utm=107 stm=167 core=0 HZ=100
+  | stack=0x9afa5000-0x9afa7000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1114/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00008ae9  /system/lib/libandroid.so (ALooper_pollOnce+64)
+  native: #06 pc 00005fbf  /system/lib/libnativemr.so (???)
+  native: #07 pc 00017741  /system/framework/arm/motionrecognitionservice.odex (Java_com_samsung_android_motion_MotionRecognitionService_runMoitonService__+80)
+  at com.samsung.android.motion.MotionRecognitionService.runMoitonService(Native method)
+  at com.samsung.android.motion.MotionRecognitionService.access$2100(MotionRecognitionService.java:68)
+  at com.samsung.android.motion.MotionRecognitionService$SensoerEventThread.run(MotionRecognitionService.java:540)
+  at java.lang.Thread.run(Thread.java:818)
+
+"cover" prio=5 tid=53 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13429d60 self=0x9b662800
+  | sysTid=1115 nice=-4 cgrp=apps sched=0/0 handle=0x9b673b00
+  | state=S schedstat=( 977574403 675450380881 25083 ) utm=15 stm=82 core=0 HZ=100
+  | stack=0x9aea1000-0x9aea3000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1115/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"MountService" prio=5 tid=54 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13462be0 self=0x9b664400
+  | sysTid=1116 nice=0 cgrp=apps sched=0/0 handle=0x9b673d80
+  | state=S schedstat=( 914229068 684206103788 25387 ) utm=13 stm=78 core=0 HZ=100
+  | stack=0x9ad9d000-0x9ad9f000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1116/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"VoldConnector" prio=5 tid=55 Native
+  | group="main" sCount=1 dsCount=0 obj=0x1354e0e0 self=0x9b664800
+  | sysTid=1117 nice=0 cgrp=apps sched=0/0 handle=0x9b674000
+  | state=S schedstat=( 945918367 692251613733 25952 ) utm=2 stm=92 core=2 HZ=100
+  | stack=0x9ac99000-0x9ac9b000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1117/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x13de1070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:168)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:111)
+  at java.lang.Thread.run(Thread.java:818)
+
+"DirEncryptConnector" prio=5 tid=56 Native
+  | group="main" sCount=1 dsCount=0 obj=0x1354e200 self=0x9b664c00
+  | sysTid=1118 nice=0 cgrp=apps sched=0/0 handle=0x9b674280
+  | state=S schedstat=( 739841871 686067585851 25225 ) utm=0 stm=73 core=0 HZ=100
+  | stack=0x9ab95000-0x9ab97000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1118/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x13e09070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:168)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:111)
+  at java.lang.Thread.run(Thread.java:818)
+
+"DirEncryptService" prio=5 tid=57 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13462e10 self=0x9b665000
+  | sysTid=1119 nice=0 cgrp=apps sched=0/0 handle=0x9b674500
+  | state=S schedstat=( 948136219 696314586722 25862 ) utm=11 stm=83 core=0 HZ=100
+  | stack=0x9aa91000-0x9aa93000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1119/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetdConnector" prio=5 tid=59 Native
+  | group="main" sCount=1 dsCount=0 obj=0x1391bf40 self=0x9b668c00
+  | sysTid=1123 nice=0 cgrp=apps sched=0/0 handle=0x9b675180
+  | state=S schedstat=( 890676447 691885241627 25782 ) utm=5 stm=84 core=2 HZ=100
+  | stack=0x9a889000-0x9a88b000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1123/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x13f7a070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:168)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:111)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ABTPersistence_Install" prio=5 tid=60 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a32ef0 self=0x9b669000
+  | sysTid=1124 nice=0 cgrp=apps sched=0/0 handle=0x9b675400
+  | state=S schedstat=( 908659504 686796571301 25266 ) utm=16 stm=74 core=0 HZ=100
+  | stack=0x9a785000-0x9a787000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1124/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ABTPersistence_InvokeMethod" prio=5 tid=61 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a32f60 self=0x9b669400
+  | sysTid=1125 nice=0 cgrp=apps sched=0/0 handle=0x9b675680
+  | state=S schedstat=( 886565641 692180456845 25483 ) utm=14 stm=74 core=0 HZ=100
+  | stack=0x9a681000-0x9a683000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1125/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ABTPersistence_Download" prio=5 tid=62 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a32fd0 self=0x9b669800
+  | sysTid=1126 nice=0 cgrp=apps sched=0/0 handle=0x9b675900
+  | state=S schedstat=( 889470665 690515911585 25393 ) utm=12 stm=76 core=0 HZ=100
+  | stack=0x9a57d000-0x9a57f000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1126/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"java.lang.ProcessManager" daemon prio=5 tid=63 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x13a29aa0 self=0x9b669c00
+  | sysTid=1127 nice=0 cgrp=apps sched=0/0 handle=0x9b675b80
+  | state=S schedstat=( 1919850054 689977777282 26872 ) utm=1 stm=190 core=0 HZ=100
+  | stack=0x9a479000-0x9a47b000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x00b476cc> (a java.util.HashMap)
+  at java.lang.ProcessManager.waitForMoreChildren(ProcessManager.java:140)
+  - locked <0x00b476cc> (a java.util.HashMap)
+  at java.lang.ProcessManager.watchChildren(ProcessManager.java:105)
+  at java.lang.ProcessManager.access$000(ProcessManager.java:40)
+  at java.lang.ProcessManager$1.run(ProcessManager.java:58)
+
+"Binder_3" prio=5 tid=64 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a56080 self=0x9b66c800
+  | sysTid=1129 nice=0 cgrp=apps sched=0/0 handle=0x9e756080
+  | state=S schedstat=( 26020676887 712716549281 98144 ) utm=1464 stm=1138 core=0 HZ=100
+  | stack=0x9a37b000-0x9a37d000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1129/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"ABT_PersistedStorageManager" prio=5 tid=65 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a33200 self=0x9b66a000
+  | sysTid=1130 nice=0 cgrp=apps sched=0/0 handle=0x9b675e00
+  | state=S schedstat=( 962124041 700704535011 25453 ) utm=17 stm=79 core=0 HZ=100
+  | stack=0x9a0fe000-0x9a100000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1130/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetworkStats" prio=5 tid=66 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a7f7b0 self=0x9b66a800
+  | sysTid=1131 nice=0 cgrp=apps sched=0/0 handle=0x9b676080
+  | state=S schedstat=( 2893877852 706164907246 28770 ) utm=142 stm=147 core=3 HZ=100
+  | stack=0x99ff4000-0x99ff6000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1131/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetworkPolicy" prio=5 tid=67 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13a7ff20 self=0x9b66ac00
+  | sysTid=1132 nice=0 cgrp=apps sched=0/0 handle=0x9b676300
+  | state=S schedstat=( 1701119237 706861884702 32585 ) utm=56 stm=114 core=1 HZ=100
+  | stack=0x99eea000-0x99eec000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1132/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiP2pService" prio=5 tid=68 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13b1b740 self=0x9b66bc00
+  | sysTid=1133 nice=0 cgrp=apps sched=0/0 handle=0x9b676580
+  | state=S schedstat=( 1068546521 702176241380 25606 ) utm=23 stm=83 core=0 HZ=100
+  | stack=0x99de0000-0x99de2000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1133/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiStateMachine" prio=5 tid=69 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x13b4e780 self=0x9a20c800
+  | sysTid=1134 nice=0 cgrp=apps sched=0/0 handle=0x9b676a80
+  | state=S schedstat=( 316094850906 878534006869 176542 ) utm=25327 stm=6282 core=0 HZ=100
+  | stack=0x99ccb000-0x99ccd000 stackSize=1036KB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:19893)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at android.app.ContextImpl.sendStickyBroadcastAsUser(ContextImpl.java:1932)
+  at com.android.server.wifi.WifiStateMachine.sendStickyBroadcastFromWifiStateMachine(WifiStateMachine.java:5568)
+  at com.android.server.wifi.WifiStateMachine.sendRssiChangeBroadcast(WifiStateMachine.java:5444)
+  at com.android.server.wifi.WifiStateMachine.fetchRssiLinkSpeedAndFrequencyNative(WifiStateMachine.java:4775)
+  at com.android.server.wifi.WifiStateMachine.access$25200(WifiStateMachine.java:202)
+  at com.android.server.wifi.WifiStateMachine$L2ConnectedState.processMessage(WifiStateMachine.java:10412)
+  at com.android.internal.util.StateMachine$SmHandler.processMsg(StateMachine.java:966)
+  at com.android.internal.util.StateMachine$SmHandler.handleMessage(StateMachine.java:789)
+  at android.os.Handler.dispatchMessage(Handler.java:102)
+  at android.os.Looper.loop(Looper.java:145)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiService" prio=5 tid=70 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13bb9c50 self=0x9a20d000
+  | sysTid=1135 nice=0 cgrp=apps sched=0/0 handle=0x9b676f80
+  | state=S schedstat=( 2561764001 707368185213 35399 ) utm=83 stm=173 core=0 HZ=100
+  | stack=0x99bc7000-0x99bc9000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1135/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"ConnectivityServiceThread" prio=5 tid=71 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c0d390 self=0x9a20d400
+  | sysTid=1136 nice=0 cgrp=apps sched=0/0 handle=0x9b676d00
+  | state=S schedstat=( 5023130905 727807632410 28771 ) utm=349 stm=153 core=2 HZ=100
+  | stack=0x99ac3000-0x99ac5000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1136/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Tethering" prio=5 tid=72 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c0da20 self=0x9a20d800
+  | sysTid=1137 nice=0 cgrp=apps sched=0/0 handle=0x9b677200
+  | state=S schedstat=( 1021847471 713118592571 25626 ) utm=27 stm=75 core=0 HZ=100
+  | stack=0x999bf000-0x999c1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1137/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"SmartBondingService" prio=5 tid=73 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c45c50 self=0x9a20e000
+  | sysTid=1138 nice=0 cgrp=apps sched=0/0 handle=0x9b677480
+  | state=S schedstat=( 1084515599 724573388438 26161 ) utm=25 stm=83 core=3 HZ=100
+  | stack=0x998bb000-0x998bd000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1138/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiManager" prio=5 tid=74 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c45cc0 self=0x9a20e400
+  | sysTid=1139 nice=0 cgrp=apps sched=0/0 handle=0x9b677700
+  | state=S schedstat=( 8516015683 722357743418 68382 ) utm=205 stm=646 core=0 HZ=100
+  | stack=0x997b7000-0x997b9000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1139/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NsdService" prio=5 tid=75 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c45f60 self=0x9a20e800
+  | sysTid=1140 nice=0 cgrp=apps sched=0/0 handle=0x9b677980
+  | state=S schedstat=( 932428866 719477575147 25589 ) utm=14 stm=79 core=0 HZ=100
+  | stack=0x996b3000-0x996b5000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1140/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"mDnsConnector" prio=5 tid=76 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c8fb80 self=0x9a20ec00
+  | sysTid=1141 nice=0 cgrp=apps sched=0/0 handle=0x9b677c00
+  | state=S schedstat=( 766508793 718806645094 25375 ) utm=0 stm=76 core=0 HZ=100
+  | stack=0x995af000-0x995b1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1141/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x14173070> (a java.lang.Object)
+  at com.android.server.NativeDaemonConnector.listenToSocket(NativeDaemonConnector.java:168)
+  at com.android.server.NativeDaemonConnector.run(NativeDaemonConnector.java:111)
+  at java.lang.Thread.run(Thread.java:818)
+
+"ranker" prio=5 tid=77 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c46430 self=0x9a20f000
+  | sysTid=1142 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9b677e80
+  | state=S schedstat=( 800677349 1387664644473 25154 ) utm=16 stm=64 core=0 HZ=100
+  | stack=0x994ab000-0x994ad000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1142/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"AudioService" prio=5 tid=78 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13cd1a40 self=0x9a20f400
+  | sysTid=1143 nice=0 cgrp=apps sched=0/0 handle=0x9b678100
+  | state=S schedstat=( 996914337 726974185015 26023 ) utm=20 stm=79 core=0 HZ=100
+  | stack=0x993a7000-0x993a9000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1143/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.media.AudioService$AudioSystemThread.run(AudioService.java:4609)
+
+"UsbHostNotification" prio=5 tid=79 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13c97040 self=0x9a20fc00
+  | sysTid=1144 nice=0 cgrp=apps sched=0/0 handle=0x9b678600
+  | state=S schedstat=( 976817201 732374797621 26091 ) utm=18 stm=79 core=0 HZ=100
+  | stack=0x992a3000-0x992a5000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1144/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"backup" prio=5 tid=80 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13cf7c80 self=0x9a210400
+  | sysTid=1145 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9b678880
+  | state=S schedstat=( 1816996138 1402552422832 26179 ) utm=71 stm=110 core=0 HZ=100
+  | stack=0x9919f000-0x991a1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1145/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiWatchdogStateMachine" prio=5 tid=58 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f71350 self=0x9b66c400
+  | sysTid=1148 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6080
+  | state=S schedstat=( 1377181079 741346372848 27542 ) utm=39 stm=98 core=0 HZ=100
+  | stack=0x965fe000-0x96600000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1148/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetworkStatsThread" prio=5 tid=82 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f71890 self=0x9a296400
+  | sysTid=1149 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6300
+  | state=S schedstat=( 401151339723 1005539804204 180172 ) utm=11530 stm=28585 core=3 HZ=100
+  | stack=0x964f4000-0x964f6000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1149/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 0028448d  /system/lib/libart.so (art::GoToRunnable(art::Thread*)+772)
+  native: #03 pc 00087949  /system/lib/libart.so (art::JniMethodEnd(unsigned int, art::Thread*)+8)
+  native: #04 pc 000b22a9  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+112)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"QualityResultHandlerThread_0" prio=5 tid=83 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f71970 self=0x9a296800
+  | sysTid=1150 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6580
+  | state=S schedstat=( 1025096011 745073537371 26218 ) utm=27 stm=75 core=3 HZ=100
+  | stack=0x963ea000-0x963ec000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1150/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"QualitySocketHandlerThread" prio=5 tid=84 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f71c80 self=0x9a296c00
+  | sysTid=1151 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6800
+  | state=S schedstat=( 977743914 738905807636 25975 ) utm=19 stm=78 core=0 HZ=100
+  | stack=0x962e0000-0x962e2000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1151/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"CaptivePortalHandlerThread" prio=5 tid=85 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f71dd0 self=0x9a297000
+  | sysTid=1152 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6a80
+  | state=S schedstat=( 946631177 749637903167 26331 ) utm=16 stm=78 core=0 HZ=100
+  | stack=0x961d6000-0x961d8000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1152/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiScanningService" prio=5 tid=81 Native
+  | group="main" sCount=1 dsCount=0 obj=0x140e2400 self=0x9a297800
+  | sysTid=1153 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6d00
+  | state=S schedstat=( 1115152146 763521145234 27006 ) utm=31 stm=80 core=0 HZ=100
+  | stack=0x9909b000-0x9909d000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1153/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"WifiRttService" prio=5 tid=86 Native
+  | group="main" sCount=1 dsCount=0 obj=0x140e3120 self=0x9a297c00
+  | sysTid=1154 nice=0 cgrp=apps sched=0/0 handle=0x9a2b6f80
+  | state=S schedstat=( 963694539 751968633199 26250 ) utm=23 stm=73 core=0 HZ=100
+  | stack=0x96a9c000-0x96a9e000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1154/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"InternalHandlerThread" prio=5 tid=87 Native
+  | group="main" sCount=1 dsCount=0 obj=0x140e3c80 self=0x9a298000
+  | sysTid=1155 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9b678380
+  | state=S schedstat=( 741891421 1398758877979 25035 ) utm=21 stm=53 core=0 HZ=100
+  | stack=0x960cc000-0x960ce000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1155/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"InternalHandlerThread" prio=5 tid=88 Native
+  | group="main" sCount=1 dsCount=0 obj=0x143c1a90 self=0x9a29a400
+  | sysTid=1158 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9a2b7480
+  | state=S schedstat=( 720918013 1403370907125 25075 ) utm=16 stm=56 core=0 HZ=100
+  | stack=0x95fc8000-0x95fca000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1158/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NotifierInSeperateThread" prio=5 tid=89 Native
+  | group="main" sCount=1 dsCount=0 obj=0x143c2dd0 self=0x9a29a800
+  | sysTid=1160 nice=0 cgrp=apps sched=0/0 handle=0x9a2b7200
+  | state=S schedstat=( 1189976236 753783330858 26676 ) utm=30 stm=88 core=3 HZ=100
+  | stack=0x95ec4000-0x95ec6000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1160/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"InputDeviceLight" prio=5 tid=90 Native
+  | group="main" sCount=1 dsCount=0 obj=0x143e98d0 self=0x9a29ac00
+  | sysTid=1161 nice=0 cgrp=apps sched=0/0 handle=0x9a2b7700
+  | state=S schedstat=( 1104463556 755180085203 26427 ) utm=18 stm=92 core=3 HZ=100
+  | stack=0x95dc0000-0x95dc2000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1161/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"InputDeviceLight" prio=5 tid=91 Native
+  | group="main" sCount=1 dsCount=0 obj=0x143e9a20 self=0x9a29b000
+  | sysTid=1162 nice=0 cgrp=apps sched=0/0 handle=0x9a2b7980
+  | state=S schedstat=( 989226422 759957786518 26363 ) utm=17 stm=81 core=0 HZ=100
+  | stack=0x95cbc000-0x95cbe000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1162/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"RegisterInSeperateThread" prio=5 tid=92 Native
+  | group="main" sCount=1 dsCount=0 obj=0x143ea890 self=0x9a29b400
+  | sysTid=1163 nice=0 cgrp=apps sched=0/0 handle=0x9a2b7c00
+  | state=S schedstat=( 967732749 756555205148 26090 ) utm=16 stm=80 core=0 HZ=100
+  | stack=0x95bb8000-0x95bba000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1163/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-118" prio=5 tid=93 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x140eb580 self=0xaf892400
+  | sysTid=1164 nice=0 cgrp=apps sched=0/0 handle=0xaf825080
+  | state=S schedstat=( 1445360483 754516017707 27477 ) utm=0 stm=144 core=0 HZ=100
+  | stack=0x95ab4000-0x95ab6000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x36d0ed15> (a java.lang.Object)
+  at com.android.server.display.DisplayPowerState$PhotonicModulator.run(DisplayPowerState.java:456)
+  - locked <0x36d0ed15> (a java.lang.Object)
+
+"BlankUnblankInSeperateThread" prio=5 tid=94 Native
+  | group="main" sCount=1 dsCount=0 obj=0x144adb00 self=0xaf892800
+  | sysTid=1165 nice=0 cgrp=apps sched=0/0 handle=0xaf825300
+  | state=S schedstat=( 957665264 759763705723 26002 ) utm=24 stm=71 core=1 HZ=100
+  | stack=0x959b0000-0x959b2000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1165/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"RenderThread" prio=5 tid=95 Native
+  | group="main" sCount=1 dsCount=0 obj=0x14a2f080 self=0xa0422400
+  | sysTid=1166 nice=-4 cgrp=apps sched=0/0 handle=0x9a2b7e80
+  | state=S schedstat=( 736179306 749006148052 25369 ) utm=9 stm=64 core=0 HZ=100
+  | stack=0x958b2000-0x958b4000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1166/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00045121  /system/lib/libhwui.so (android::uirenderer::renderthread::RenderThread::threadLoop()+44)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"LazyTaskWriterThread" prio=5 tid=96 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x132f88c0 self=0x9a29b800
+  | sysTid=1167 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8100
+  | state=S schedstat=( 1037868824 755648658705 26157 ) utm=11 stm=92 core=0 HZ=100
+  | stack=0x957ae000-0x957b0000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x326f882a> (a com.android.server.am.TaskPersister)
+  at com.android.server.am.TaskPersister$LazyTaskWriterThread.run(TaskPersister.java:507)
+  - locked <0x326f882a> (a com.android.server.am.TaskPersister)
+
+"UsbStorageNotification" prio=5 tid=97 Native
+  | group="main" sCount=1 dsCount=0 obj=0x14ac9ba0 self=0x9a299800
+  | sysTid=1168 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8380
+  | state=S schedstat=( 939435197 760844071794 25768 ) utm=18 stm=75 core=0 HZ=100
+  | stack=0x956aa000-0x956ac000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1168/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"UsbService host thread" prio=5 tid=98 Native
+  | group="main" sCount=1 dsCount=0 obj=0x14d750a0 self=0x9a29bc00
+  | sysTid=1169 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8600
+  | state=S schedstat=( 711062939 753027027283 25158 ) utm=4 stm=67 core=0 HZ=100
+  | stack=0x955a6000-0x955a8000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1169/stack)
+  native: #00 pc 00037ae8  /system/lib/libc.so (read+12)
+  native: #01 pc 000012e7  /system/lib/libusbhost.so (usb_host_read_event+34)
+  native: #02 pc 000014c5  /system/lib/libusbhost.so (usb_host_run+16)
+  native: #03 pc 0001c4bb  /system/lib/libandroid_servers.so (???)
+  native: #04 pc 0019e363  /system/framework/arm/services.odex (Java_com_android_server_usb_UsbHostManager_monitorUsbHostBus__+82)
+  at com.android.server.usb.UsbHostManager.monitorUsbHostBus(Native method)
+  at com.android.server.usb.UsbHostManager.access$000(UsbHostManager.java:68)
+  at com.android.server.usb.UsbHostManager$1.run(UsbHostManager.java:434)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-123" prio=5 tid=99 Native
+  | group="main" sCount=1 dsCount=0 obj=0x14d751c0 self=0x9a29c000
+  | sysTid=1170 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8880
+  | state=S schedstat=( 1228529391 765620141750 25566 ) utm=1 stm=121 core=0 HZ=100
+  | stack=0x954a2000-0x954a4000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1170/stack)
+  native: #00 pc 000375b0  /system/lib/libc.so (__accept4+8)
+  native: #01 pc 000009e7  /system/lib/libnetd_client.so (???)
+  native: #02 pc 00011569  /system/lib/libc.so (accept4+8)
+  native: #03 pc 0001f57f  /system/lib/libjavacore.so (???)
+  native: #04 pc 002758c3  /system/framework/arm/boot.oat (Java_libcore_io_Posix_accept__Ljava_io_FileDescriptor_2Ljava_net_InetSocketAddress_2+122)
+  at libcore.io.Posix.accept(Native method)
+  at libcore.io.BlockGuardOs.accept(BlockGuardOs.java:63)
+  at android.system.Os.accept(Os.java:57)
+  at com.android.server.am.NativeCrashListener.run(NativeCrashListener.java:129)
+
+"Binder_4" prio=5 tid=100 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x14dfa200 self=0xaf28f400
+  | sysTid=1215 nice=0 cgrp=apps sched=0/0 handle=0xaeb26300
+  | state=S schedstat=( 25570388824 778551467216 97750 ) utm=1434 stm=1123 core=0 HZ=100
+  | stack=0x96804000-0x96806000 stackSize=1012KB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.getRunningAppProcesses(ActivityManagerService.java:15678)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:680)
+  at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3177)
+  at android.os.Binder.execTransact(Binder.java:446)
+
+"Binder_5" prio=5 tid=101 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x14e19080 self=0xaf183400
+  | sysTid=1278 nice=0 cgrp=apps sched=0/0 handle=0x97328080
+  | state=S schedstat=( 25277954086 773531361775 97780 ) utm=1428 stm=1099 core=0 HZ=100
+  | stack=0x953a4000-0x953a6000 stackSize=1012KB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.getCurrentUser(ActivityManagerService.java:23547)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2013)
+  at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3177)
+  at android.os.Binder.execTransact(Binder.java:446)
+
+"Binder_6" prio=5 tid=102 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132f9ca0 self=0xa9ea2800
+  | sysTid=1327 nice=0 cgrp=apps sched=0/0 handle=0xaf1ca080
+  | state=S schedstat=( 25202913030 774226184380 96570 ) utm=1435 stm=1085 core=0 HZ=100
+  | stack=0x952a6000-0x952a8000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1327/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 001a4423  /system/lib/libart.so (art::JNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+654)
+  native: #03 pc 0008577d  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00088bcf  /system/lib/libandroid_runtime.so (???)
+  native: #05 pc 00017f79  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  native: #06 pc 0001cf2f  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+582)
+  native: #07 pc 0001d053  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  native: #08 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #09 pc 00021203  /system/lib/libbinder.so (???)
+  native: #10 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #11 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #12 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #13 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #14 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"watchdog" prio=5 tid=103 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132da800 self=0x9a29d000
+  | sysTid=1329 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8b00
+  | state=S schedstat=( 4221766096 776656216482 29621 ) utm=164 stm=258 core=0 HZ=100
+  | stack=0x951a2000-0x951a4000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1329/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 0028448d  /system/lib/libart.so (art::GoToRunnable(art::Thread*)+772)
+  native: #03 pc 00087949  /system/lib/libart.so (art::JniMethodEnd(unsigned int, art::Thread*)+8)
+  native: #04 pc 00b060db  /system/framework/arm/boot.oat (Java_android_os_Process_sendSignal__II+98)
+  at android.os.Process.sendSignal(Native method)
+  at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:6486)
+  - locked <@addr=0x16baf360> (a com.android.server.am.ActivityManagerService$7)
+  at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:6464)
+  at com.android.server.Watchdog.run(Watchdog.java:394)
+  - locked <0x2f75f61b> (a com.android.server.Watchdog)
+
+"SoundPoolThread" prio=5 tid=104 Native
+  | group="main" sCount=1 dsCount=0 obj=0x134d60e0 self=0x9e70a000
+  | sysTid=1331 nice=0 cgrp=apps sched=0/0 handle=0x9f834380
+  | state=S schedstat=( 559659340 759214825364 25071 ) utm=1 stm=54 core=0 HZ=100
+  | stack=0x94fa6000-0x94fa8000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1331/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  native: #02 pc 0007cd85  /system/lib/libmedia.so (android::SoundPoolThread::read()+18)
+  native: #03 pc 0007cf03  /system/lib/libmedia.so (android::SoundPoolThread::run()+14)
+  native: #04 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #05 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #06 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #07 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"SoundPool" prio=5 tid=105 Native
+  | group="main" sCount=1 dsCount=0 obj=0x134fda40 self=0xaa4a8400
+  | sysTid=1330 nice=0 cgrp=apps sched=0/0 handle=0x9f834100
+  | state=S schedstat=( 601841631 758663206693 24973 ) utm=0 stm=60 core=0 HZ=100
+  | stack=0x950a4000-0x950a6000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1330/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  native: #02 pc 0007cc01  /system/lib/libmedia.so (android::SoundPool::run()+32)
+  native: #03 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #04 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_7" prio=5 tid=107 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12df0620 self=0xaf08b400
+  | sysTid=1353 nice=0 cgrp=apps sched=0/0 handle=0xaf1ca300
+  | state=S schedstat=( 26060256104 782426257488 97029 ) utm=1479 stm=1127 core=0 HZ=100
+  | stack=0x94ca4000-0x94ca6000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1353/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 001a4423  /system/lib/libart.so (art::JNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+654)
+  native: #03 pc 0008577d  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00088bcf  /system/lib/libandroid_runtime.so (???)
+  native: #05 pc 00017f79  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  native: #06 pc 0001cf2f  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+582)
+  native: #07 pc 0001d053  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  native: #08 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #09 pc 00021203  /system/lib/libbinder.so (???)
+  native: #10 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #11 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #12 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #13 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #14 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"NetworkTimeUpdateService" prio=5 tid=108 Native
+  | group="main" sCount=1 dsCount=0 obj=0x131b3cc0 self=0x9a29d400
+  | sysTid=1413 nice=0 cgrp=apps sched=0/0 handle=0x9a2b8d80
+  | state=S schedstat=( 1024097192 783441028330 26247 ) utm=24 stm=78 core=0 HZ=100
+  | stack=0x9d3fe000-0x9d400000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1413/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Binder_8" prio=5 tid=106 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132240e0 self=0xaf83e400
+  | sysTid=1471 nice=0 cgrp=apps sched=0/0 handle=0x9e756300
+  | state=S schedstat=( 26331617162 788445616244 96315 ) utm=1519 stm=1114 core=3 HZ=100
+  | stack=0x9d1cf000-0x9d1d1000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1471/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_9" prio=5 tid=109 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132ce080 self=0xa0a56400
+  | sysTid=1496 nice=0 cgrp=apps sched=0/0 handle=0xaeb26580
+  | state=S schedstat=( 25118790143 782114603899 97461 ) utm=1436 stm=1075 core=0 HZ=100
+  | stack=0x9d0d1000-0x9d0d3000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1496/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_A" prio=5 tid=110 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x13402080 self=0xa07be400
+  | sysTid=1514 nice=0 cgrp=apps sched=0/0 handle=0xa0a6e080
+  | state=S schedstat=( 24397883322 787299521502 96184 ) utm=1395 stm=1044 core=3 HZ=100
+  | stack=0x9cfd3000-0x9cfd5000 stackSize=1012KB
+  | held mutexes=
+  at com.android.server.am.ActivityManagerService.dump(ActivityManagerService.java:16038)
+  - waiting to lock <0x0fe22f5d> (a com.android.server.am.ActivityManagerService) held by thread 139
+  at android.os.Binder.dump(Binder.java:319)
+  at android.os.Binder.onTransact(Binder.java:285)
+  at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2515)
+  at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3177)
+  at android.os.Binder.execTransact(Binder.java:446)
+
+"Binder_B" prio=5 tid=111 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x134f2080 self=0x9b579400
+  | sysTid=1552 nice=0 cgrp=apps sched=0/0 handle=0x9e756580
+  | state=S schedstat=( 25598239815 784325817609 96675 ) utm=1406 stm=1153 core=3 HZ=100
+  | stack=0x92109000-0x9210b000 stackSize=1012KB
+  | held mutexes=
+  at com.android.server.AlarmManagerService.setImpl(AlarmManagerService.java:913)
+  - waiting to lock <0x2e23c8ff> (a java.lang.Object) held by thread 41
+  at com.android.server.AlarmManagerService$2.set(AlarmManagerService.java:1022)
+  at android.app.IAlarmManager$Stub.onTransact(IAlarmManager.java:82)
+  at android.os.Binder.execTransact(Binder.java:446)
+
+"WifiMonitor" prio=5 tid=112 Native
+  | group="main" sCount=1 dsCount=0 obj=0x135160e0 self=0x97566400
+  | sysTid=1561 nice=0 cgrp=apps sched=0/0 handle=0x97576080
+  | state=S schedstat=( 1922081709 786113278212 28897 ) utm=18 stm=174 core=0 HZ=100
+  | stack=0x91f36000-0x91f38000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1561/stack)
+  native: #00 pc 000378d4  /system/lib/libc.so (__ppoll+20)
+  native: #01 pc 00012f19  /system/lib/libc.so (poll+32)
+  native: #02 pc 00002d6f  /system/lib/libhardware_legacy.so (wifi_ctrl_recv+58)
+  native: #03 pc 00002e1d  /system/lib/libhardware_legacy.so (wifi_wait_on_socket+56)
+  native: #04 pc 00004207  /system/lib/libwifi-service.so (???)
+  native: #05 pc 0004cc4b  /system/framework/arm/wifi-service.odex (Java_com_android_server_wifi_WifiNative_waitForEventNative__+82)
+  at com.android.server.wifi.WifiNative.waitForEventNative(Native method)
+  at com.android.server.wifi.WifiNative.waitForEvent(WifiNative.java:171)
+  at com.android.server.wifi.WifiMonitor$MonitorThread.run(WifiMonitor.java:853)
+
+"Binder_C" prio=5 tid=113 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13711080 self=0x96701800
+  | sysTid=1572 nice=0 cgrp=apps sched=0/0 handle=0x9f834600
+  | state=S schedstat=( 24872090835 793048953738 97697 ) utm=1407 stm=1080 core=0 HZ=100
+  | stack=0x94ea8000-0x94eaa000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1572/stack)
+  native: #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  native: #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  native: #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  native: #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  native: #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #05 pc 00021203  /system/lib/libbinder.so (???)
+  native: #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #07 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #08 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #09 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #10 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_D" prio=5 tid=114 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13810080 self=0xaf5c3000
+  | sysTid=1590 nice=0 cgrp=apps sched=0/0 handle=0x9a2ba180
+  | state=S schedstat=( 24042528901 791160303443 96269 ) utm=1338 stm=1066 core=3 HZ=100
+  | stack=0x91c08000-0x91c0a000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1590/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 001a4423  /system/lib/libart.so (art::JNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+654)
+  native: #03 pc 0008577d  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00088bcf  /system/lib/libandroid_runtime.so (???)
+  native: #05 pc 00017f79  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  native: #06 pc 0001cf2f  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+582)
+  native: #07 pc 0001d053  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  native: #08 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #09 pc 00021203  /system/lib/libbinder.so (???)
+  native: #10 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #11 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #12 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #13 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #14 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"NetworkMonitorNetworkAgentInfo [WIFI_P2P () - null]" prio=5 tid=115 Native
+  | group="main" sCount=1 dsCount=0 obj=0x139b2ef0 self=0x973a4800
+  | sysTid=1613 nice=0 cgrp=apps sched=0/0 handle=0x973be300
+  | state=S schedstat=( 1059160432 798067476571 26503 ) utm=25 stm=80 core=0 HZ=100
+  | stack=0x91e02000-0x91e04000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1613/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"DhcpStateMachine" prio=5 tid=117 Native
+  | group="main" sCount=1 dsCount=0 obj=0x131b4c80 self=0x97567000
+  | sysTid=1690 nice=0 cgrp=apps sched=0/0 handle=0x97576580
+  | state=S schedstat=( 1071949955 796340214004 26550 ) utm=32 stm=75 core=0 HZ=100
+  | stack=0x9cdcb000-0x9cdcd000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/1690/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"UpdateActiveInActivePackages" prio=5 tid=118 Sleeping
+  | group="main" sCount=1 dsCount=0 obj=0x133a5980 self=0xad5e5c00
+  | sysTid=1953 nice=0 cgrp=apps sched=0/0 handle=0x9e742080
+  | state=S schedstat=( 2782190710 788487089084 30323 ) utm=95 stm=183 core=0 HZ=100
+  | stack=0x9ccc7000-0x9ccc9000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Thread.sleep!(Native method)
+  - sleeping on <0x1a1833b8> (a java.lang.Object)
+  at java.lang.Thread.sleep(Thread.java:1031)
+  - locked <0x1a1833b8> (a java.lang.Object)
+  at java.lang.Thread.sleep(Thread.java:985)
+  at com.android.server.am.SmartAdjustManager.RunSPCMDB(SmartAdjustManager.java:1009)
+  at com.android.server.am.SmartAdjustManager.access$100(SmartAdjustManager.java:87)
+  at com.android.server.am.SmartAdjustManager$3.run(SmartAdjustManager.java:1080)
+
+"AsyncTask #1" prio=5 tid=119 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x12f930a0 self=0x9a201800
+  | sysTid=2186 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9b678b00
+  | state=S schedstat=( 2966505990 1416766370912 27489 ) utm=188 stm=108 core=3 HZ=100
+  | stack=0x9cbc3000-0x9cbc5000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x34604591> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x34604591> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #2" prio=5 tid=120 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x12fb3a00 self=0xaeb06800
+  | sysTid=2491 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xaeb26800
+  | state=S schedstat=( 2789662445 1415556716596 27569 ) utm=163 stm=115 core=0 HZ=100
+  | stack=0x923fe000-0x92400000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x0155fcf6> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x0155fcf6> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #3" prio=5 tid=121 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x12c4e9a0 self=0x96701c00
+  | sysTid=2633 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x96762580
+  | state=S schedstat=( 2954891730 1417411893089 27778 ) utm=193 stm=102 core=2 HZ=100
+  | stack=0x91436000-0x91438000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x20f3d8f7> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x20f3d8f7> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #4" prio=5 tid=123 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x1304d7a0 self=0xa0a56800
+  | sysTid=2936 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0xa0a6e300
+  | state=S schedstat=( 2663658489 1424245575276 27536 ) utm=169 stm=97 core=2 HZ=100
+  | stack=0x9c9bb000-0x9c9bd000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x19f8d364> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x19f8d364> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"AsyncTask #5" prio=5 tid=124 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x134775c0 self=0xa07d3400
+  | sysTid=3039 nice=10 cgrp=apps/bg_non_interactive sched=0/0 handle=0x9f872080
+  | state=S schedstat=( 2853568077 1425407386765 27461 ) utm=159 stm=126 core=2 HZ=100
+  | stack=0x9c8b7000-0x9c8b9000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x02b2a9cd> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x02b2a9cd> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"UsbDebuggingManager" prio=5 tid=126 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13f585c0 self=0x97a3d400
+  | sysTid=3471 nice=0 cgrp=apps sched=0/0 handle=0x97a4d080
+  | state=S schedstat=( 748656245 785293843254 25319 ) utm=0 stm=74 core=0 HZ=100
+  | stack=0x91b04000-0x91b06000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3471/stack)
+  native: #00 pc 0003694c  /system/lib/libc.so (recvmsg+8)
+  native: #01 pc 00084deb  /system/lib/libandroid_runtime.so (???)
+  native: #02 pc 00084f7b  /system/lib/libandroid_runtime.so (???)
+  native: #03 pc 00911fb1  /system/framework/arm/boot.oat (Java_android_net_LocalSocketImpl_readba_1native___3BIILjava_io_FileDescriptor_2+144)
+  at android.net.LocalSocketImpl.readba_native(Native method)
+  at android.net.LocalSocketImpl.access$400(LocalSocketImpl.java:33)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:101)
+  - locked <@addr=0x146a4080> (a java.lang.Object)
+  at android.net.LocalSocketImpl$SocketInputStream.read(LocalSocketImpl.java:87)
+  at com.android.server.usb.UsbDebuggingManager.listenToSocket(UsbDebuggingManager.java:91)
+  at com.android.server.usb.UsbDebuggingManager.run(UsbDebuggingManager.java:120)
+  at java.lang.Thread.run(Thread.java:818)
+
+"pool-1-thread-1" prio=5 tid=125 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x1416f1a0 self=0x9b57dc00
+  | sysTid=3527 nice=0 cgrp=apps sched=0/0 handle=0x97803380
+  | state=S schedstat=( 786180452 788799878705 25982 ) utm=1 stm=77 core=0 HZ=100
+  | stack=0x92616000-0x92618000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x375cf282> (a java.lang.Object)
+  at java.lang.Thread.parkFor(Thread.java:1220)
+  - locked <0x375cf282> (a java.lang.Object)
+  at sun.misc.Unsafe.park(Unsafe.java:299)
+  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:157)
+  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2016)
+  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1035)
+  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1097)
+  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+  at java.lang.Thread.run(Thread.java:818)
+
+"SSRM Handler Thread" prio=5 tid=127 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13271320 self=0x9a201400
+  | sysTid=3545 nice=1 cgrp=apps sched=0/0 handle=0x9a2bdb00
+  | state=S schedstat=( 132715228582 901764794017 205061 ) utm=6756 stm=6515 core=2 HZ=100
+  | stack=0x927fe000-0x92800000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3545/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 0028448d  /system/lib/libart.so (art::GoToRunnable(art::Thread*)+772)
+  native: #03 pc 00087949  /system/lib/libart.so (art::JniMethodEnd(unsigned int, art::Thread*)+8)
+  native: #04 pc 000b22a9  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+112)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Thread-159" prio=5 tid=128 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x134d6680 self=0x9b57d800
+  | sysTid=3546 nice=0 cgrp=apps sched=0/0 handle=0x97803100
+  | state=S schedstat=( 760527948 790838951991 26077 ) utm=0 stm=76 core=0 HZ=100
+  | stack=0x91a00000-0x91a02000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x37030d93> (a java.lang.Object)
+  at c.aI.run(unavailable:-1)
+  - locked <0x37030d93> (a java.lang.Object)
+  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-160" prio=5 tid=129 Waiting
+  | group="main" sCount=1 dsCount=0 obj=0x134d67a0 self=0x9b57e000
+  | sysTid=3547 nice=0 cgrp=apps sched=0/0 handle=0x97803600
+  | state=S schedstat=( 717512605 787956093763 25870 ) utm=0 stm=71 core=0 HZ=100
+  | stack=0x918fc000-0x918fe000 stackSize=1036KB
+  | held mutexes=
+  at java.lang.Object.wait!(Native method)
+  - waiting on <0x2d21c1d0> (a java.lang.Object)
+  at c.aJ.run(unavailable:-1)
+  - locked <0x2d21c1d0> (a java.lang.Object)
+  at java.lang.Thread.run(Thread.java:818)
+
+"InactiveAppAnalyzer Thread" prio=5 tid=130 Native
+  | group="main" sCount=1 dsCount=0 obj=0x132c8970 self=0x9a201c00
+  | sysTid=3548 nice=0 cgrp=apps sched=0/0 handle=0x9a2ba680
+  | state=S schedstat=( 9287593967 800971303527 31362 ) utm=517 stm=411 core=1 HZ=100
+  | stack=0x917f8000-0x917fa000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3548/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"DataTputMonitor Thread" prio=5 tid=131 Native
+  | group="main" sCount=1 dsCount=0 obj=0x138411d0 self=0x9b57ec00
+  | sysTid=3552 nice=1 cgrp=apps sched=0/0 handle=0x97803b00
+  | state=S schedstat=( 37694114260 900490257504 117111 ) utm=1810 stm=1959 core=0 HZ=100
+  | stack=0x91332000-0x91334000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3552/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 0028448d  /system/lib/libart.so (art::GoToRunnable(art::Thread*)+772)
+  native: #03 pc 00087949  /system/lib/libart.so (art::JniMethodEnd(unsigned int, art::Thread*)+8)
+  native: #04 pc 000b22a9  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+112)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Loc_hal_worker" prio=5 tid=135 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13b6d7a0 self=0x97f33c00
+  | sysTid=3563 nice=0 cgrp=apps sched=0/0 handle=0xa0021380
+  | state=S schedstat=( 590687413 784130880235 25174 ) utm=1 stm=58 core=0 HZ=100
+  | stack=0x90e04000-0x90e06000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3563/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  native: #02 pc 000033d1  /system/lib/libgps.utils.so (msg_q_rcv+188)
+  native: #03 pc 0000343d  /system/lib/libloc_core.so (loc_core::MsgTask::loopMain(void*)+72)
+  native: #04 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #05 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #06 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #07 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"DrmManagerClient.InfoHandler" prio=5 tid=136 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13b4eb00 self=0x9a202c00
+  | sysTid=3594 nice=0 cgrp=apps sched=0/0 handle=0x9fb93d00
+  | state=S schedstat=( 883154076 796975396817 25796 ) utm=19 stm=69 core=0 HZ=100
+  | stack=0x90d00000-0x90d02000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3594/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"DrmManagerClient.EventHandler" prio=5 tid=137 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13b4eda0 self=0x9a203000
+  | sysTid=3595 nice=0 cgrp=apps sched=0/0 handle=0x9fb93f80
+  | state=S schedstat=( 818407383 792023185343 25491 ) utm=17 stm=64 core=0 HZ=100
+  | stack=0x90908000-0x9090a000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3595/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"DrmEventService" prio=5 tid=138 Native
+  | group="main" sCount=1 dsCount=0 obj=0x13b4ee10 self=0x9a203400
+  | sysTid=3606 nice=-2 cgrp=apps sched=0/0 handle=0x9a2bae00
+  | state=S schedstat=( 864430081 793349234438 25557 ) utm=22 stm=64 core=0 HZ=100
+  | stack=0x90804000-0x90806000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3606/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Binder_E" prio=5 tid=132 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12f92c20 self=0xaf293c00
+  | sysTid=3948 nice=0 cgrp=apps sched=0/0 handle=0x9f872300
+  | state=S schedstat=( 24813416694 804157557412 134777 ) utm=1380 stm=1101 core=0 HZ=100
+  | stack=0x9c404000-0x9c406000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3948/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 001a4423  /system/lib/libart.so (art::JNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+654)
+  native: #03 pc 0008577d  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00088bcf  /system/lib/libandroid_runtime.so (???)
+  native: #05 pc 00017f79  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  native: #06 pc 0001cf2f  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+582)
+  native: #07 pc 0001d053  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  native: #08 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #09 pc 00021203  /system/lib/libbinder.so (???)
+  native: #10 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #11 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #12 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #13 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #14 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_F" prio=5 tid=134 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12fe0080 self=0xa9ea6c00
+  | sysTid=3991 nice=0 cgrp=apps sched=0/0 handle=0x9702d080
+  | state=S schedstat=( 24929189372 801865246296 94088 ) utm=1349 stm=1143 core=3 HZ=100
+  | stack=0x922fa000-0x922fc000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/3991/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 001a4423  /system/lib/libart.so (art::JNI::CallBooleanMethodV(_JNIEnv*, _jobject*, _jmethodID*, std::__va_list)+654)
+  native: #03 pc 0008577d  /system/lib/libandroid_runtime.so (???)
+  native: #04 pc 00088bcf  /system/lib/libandroid_runtime.so (???)
+  native: #05 pc 00017f79  /system/lib/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+60)
+  native: #06 pc 0001cf2f  /system/lib/libbinder.so (android::IPCThreadState::executeCommand(int)+582)
+  native: #07 pc 0001d053  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+38)
+  native: #08 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  native: #09 pc 00021203  /system/lib/libbinder.so (???)
+  native: #10 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  native: #11 pc 0005fe41  /system/lib/libandroid_runtime.so (android::AndroidRuntime::javaThreadShell(void*)+72)
+  native: #12 pc 0000eac5  /system/lib/libutils.so (???)
+  native: #13 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  native: #14 pc 00011893  /system/lib/libc.so (__start_thread+6)
+  (no managed stack frames)
+
+"Binder_10" prio=5 tid=139 Suspended
+  | group="main" sCount=1 dsCount=0 obj=0x130b71a0 self=0x9160f800
+  | sysTid=4023 nice=0 cgrp=apps sched=0/0 handle=0xaeb26a80
+  | state=S schedstat=( 32658049066 805544070091 146737 ) utm=1909 stm=1356 core=2 HZ=100
+  | stack=0x91004000-0x91006000 stackSize=1012KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/4023/stack)
+  native: #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  native: #01 pc 000aa777  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+  native: #02 pc 00229277  /system/lib/libart.so (art::Thread::FullSuspendCheck()+782)
+  native: #03 pc 002842b5  /system/lib/libart.so (art::GoToRunnable(art::Thread*)+300)
+  native: #04 pc 0008796f  /system/lib/libart.so (art::JniMethodEndWithReference(_jobject*, unsigned int, art::Thread*)+10)
+  native: #05 pc 00000bfb  /system/framework/arm/boot.oat (Java_java_lang_Throwable_nativeFillInStackTrace__+90)
+  at java.lang.Throwable.nativeFillInStackTrace!(Native method)
+  at java.lang.Throwable.fillInStackTrace(Throwable.java:166)
+  at java.lang.Throwable.<init>(Throwable.java:95)
+  at java.lang.Exception.<init>(Exception.java:47)
+  at java.io.IOException.<init>(IOException.java:44)
+  at android.system.ErrnoException.rethrowAsIOException(ErrnoException.java:71)
+  at libcore.io.IoBridge.write(IoBridge.java:502)
+  at java.io.FileOutputStream.write(FileOutputStream.java:186)
+  at com.android.internal.util.FastPrintWriter.flushBytesLocked(FastPrintWriter.java:334)
+  at com.android.internal.util.FastPrintWriter.flushLocked(FastPrintWriter.java:349)
+  at com.android.internal.util.FastPrintWriter.appendLocked(FastPrintWriter.java:303)
+  at com.android.internal.util.FastPrintWriter.println(FastPrintWriter.java:498)
+  - locked <0x374d15c9> (a com.android.internal.util.FastPrintWriter$1)
+  at java.io.PrintWriter.println(PrintWriter.java:550)
+  - locked <0x374d15c9> (a com.android.internal.util.FastPrintWriter$1)
+  at java.io.PrintWriter.println(PrintWriter.java:533)
+  at com.android.server.am.ProcessRecord.dump(ProcessRecord.java:484)
+  at com.android.server.am.ActivityManagerService.dumpProcessesLocked(ActivityManagerService.java:16183)
+  at com.android.server.am.ActivityManagerService.dump(ActivityManagerService.java:16069)
+  - locked <0x0fe22f5d> (a com.android.server.am.ActivityManagerService)
+  at android.os.Binder.dump(Binder.java:319)
+  at android.os.Binder.onTransact(Binder.java:285)
+  at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:2515)
+  at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3177)
+  at android.os.Binder.execTransact(Binder.java:446)
+
+"SyncHandler-0" prio=5 tid=140 Native
+  | group="main" sCount=1 dsCount=0 obj=0x12f55820 self=0xad56d400
+  | sysTid=4485 nice=0 cgrp=apps sched=0/0 handle=0x9e756f80
+  | state=S schedstat=( 859460731 798361048526 25471 ) utm=28 stm=57 core=0 HZ=100
+  | stack=0x904fe000-0x90500000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/4485/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"NetworkMonitorNetworkAgentInfo [WIFI () - null]" prio=5 tid=116 Native
+  | group="main" sCount=1 dsCount=0 obj=0x133ed710 self=0x93d29000
+  | sysTid=6516 nice=0 cgrp=apps sched=0/0 handle=0x97576800
+  | state=S schedstat=( 810258977 718447467465 22063 ) utm=29 stm=52 core=0 HZ=100
+  | stack=0x9cabf000-0x9cac1000 stackSize=1036KB
+  | held mutexes=
+  kernel: (couldn't read /proc/self/task/6516/stack)
+  native: #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  native: #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  native: #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  native: #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  native: #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  native: #05 pc 00082e61  /system/lib/libandroid_runtime.so (android::NativeMessageQueue::pollOnce(_JNIEnv*, int)+22)
+  native: #06 pc 000b229f  /system/framework/arm/boot.oat (Java_android_os_MessageQueue_nativePollOnce__JI+102)
+  at android.os.MessageQueue.nativePollOnce(Native method)
+  at android.os.MessageQueue.next(MessageQueue.java:143)
+  at android.os.Looper.loop(Looper.java:130)
+  at android.os.HandlerThread.run(HandlerThread.java:61)
+
+"Timer-387" prio=5 tid=122 Blocked
+  | group="main" sCount=1 dsCount=0 obj=0x13462f60 self=0xa061e400
+  | sysTid=2602 nice=0 cgrp=apps sched=0/0 handle=0xa06f0c80
+  | state=S schedstat=( 1351197 7968802 3 ) utm=0 stm=0 core=0 HZ=100
+  | stack=0x945fe000-0x94600000 stackSize=1036KB
+  | held mutexes=
+  at com.android.server.AlarmManagerServiceExt$SyncScheduler$TrafficAnalyzer$MonitorTask.run(AlarmManagerServiceExt.java:2869)
+  - waiting to lock <0x2e23c8ff> (a java.lang.Object) held by thread 41
+  at java.util.Timer$TimerImpl.run(Timer.java:284)
+
+"system_server" prio=5 (not attached)
+  | sysTid=1003 nice=-19 cgrp=apps
+  | state=S schedstat=( 1290966616 614761693335 24849 ) utm=0 stm=129 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1003/stack)
+
+"system_server" prio=5 (not attached)
+  | sysTid=1058 nice=-19 cgrp=apps
+  | state=S schedstat=( 5844480352 346173571301 45070 ) utm=61 stm=523 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/1058/stack)
+
+"Loc_hal_worker" prio=5 (not attached)
+  | sysTid=3566 nice=0 cgrp=apps
+  | state=S schedstat=( 796383777 794222148581 25378 ) utm=0 stm=79 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/3566/stack)
+
+"Loc_hal_worker" prio=5 (not attached)
+  | sysTid=3585 nice=0 cgrp=apps
+  | state=S schedstat=( 742663256 790254782641 25020 ) utm=0 stm=74 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/3585/stack)
+
+"Stay/Rotation W" prio=5 (not attached)
+  | sysTid=7043 nice=0 cgrp=apps
+  | state=S schedstat=( 1484204781 796912461361 26361 ) utm=89 stm=59 core=0 HZ=100
+  kernel: (couldn't read /proc/self/task/7043/stack)
+
+"Stay/Rotation W" prio=5 (not attached)
+  | sysTid=7044 nice=0 cgrp=apps
+  | state=S schedstat=( 1367372958 791610304636 26083 ) utm=89 stm=47 core=2 HZ=100
+  kernel: (couldn't read /proc/self/task/7044/stack)
+
+"Stay/Rotation W" prio=5 (not attached)
+  | sysTid=7045 nice=0 cgrp=apps
+  | state=S schedstat=( 1352956555 793048451061 26196 ) utm=74 stm=61 core=2 HZ=100
+  kernel: (couldn't read /proc/self/task/7045/stack)
+
+----- end 924 -----
+
+
+----- pid 259 at 2019-11-26 22:00:06 -----
+Cmd line: /system/bin/surfaceflinger
+ABI: 'arm'
+
+"surfaceflinger" sysTid=259
+  #00 pc 00036f34  /system/lib/libc.so (__epoll_pwait+20)
+  #01 pc 00011b2f  /system/lib/libc.so (epoll_pwait+26)
+  #02 pc 00011b3d  /system/lib/libc.so (epoll_wait+6)
+  #03 pc 00010f23  /system/lib/libutils.so (android::Looper::pollInner(int)+98)
+  #04 pc 0001114d  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+92)
+  #05 pc 00016bf5  /system/lib/libsurfaceflinger.so
+  #06 pc 0001927d  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+  #07 pc 0000083d  /system/bin/surfaceflinger
+  #08 pc 0000fb71  /system/lib/libc.so (__libc_init+44)
+  #09 pc 000008d8  /system/bin/surfaceflinger
+
+"Binder_1" sysTid=432
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"DispSync" sysTid=455
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00010931  /system/lib/libsurfaceflinger.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_2" sysTid=456
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"hwcUeventThread" sysTid=514
+  #00 pc 000378d0  /system/lib/libc.so (__ppoll+16)
+  #01 pc 00012f19  /system/lib/libc.so (poll+32)
+  #02 pc 00001cbd  /system/lib/libhardware_legacy.so (uevent_next_event+52)
+  #03 pc 0000e2b9  /system/lib/hw/hwcomposer.msm8974.so
+  #04 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #05 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"hwcVsyncThread" sysTid=515
+  #00 pc 000378d0  /system/lib/libc.so (__ppoll+16)
+  #01 pc 00012f19  /system/lib/libc.so (poll+32)
+  #02 pc 0000e8cd  /system/lib/hw/hwcomposer.msm8974.so
+  #03 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"VSyncThread" sysTid=516
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00025de1  /system/lib/libsurfaceflinger.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"GL updater" sysTid=542
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00005ff5  /system/vendor/lib/egl/eglsubAndroid.so
+  #03 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #04 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"surfaceflinger" sysTid=544
+  #00 pc 00036c30  /system/lib/libc.so (__rt_sigtimedwait+12)
+  #01 pc 000130b7  /system/lib/libc.so (__timer_thread_start(void*)+40)
+  #02 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #03 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"EventThread" sysTid=545
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00011ba3  /system/lib/libsurfaceflinger.so
+  #03 pc 0001187b  /system/lib/libsurfaceflinger.so
+  #04 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000eac5  /system/lib/libutils.so
+  #06 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"surfaceflinger" sysTid=546
+  #00 pc 00036c30  /system/lib/libc.so (__rt_sigtimedwait+12)
+  #01 pc 000130b7  /system/lib/libc.so (__timer_thread_start(void*)+40)
+  #02 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #03 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"EventThread" sysTid=547
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00011be1  /system/lib/libsurfaceflinger.so
+  #03 pc 0001187b  /system/lib/libsurfaceflinger.so
+  #04 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000eac5  /system/lib/libutils.so
+  #06 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"EventControl" sysTid=548
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00011283  /system/lib/libsurfaceflinger.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_3" sysTid=1014
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_4" sysTid=1462
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_5" sysTid=2466
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+----- end 259 -----
+
+
+----- pid 295 at 2019-11-26 22:00:07 -----
+Cmd line: /system/bin/mediaserver
+ABI: 'arm'
+
+"mediaserver" sysTid=295
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 000018d9  /system/bin/mediaserver
+  #06 pc 0000fb71  /system/lib/libc.so (__libc_init+44)
+  #07 pc 00001b68  /system/bin/mediaserver
+
+"ApmTone" sysTid=626
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00007351  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"ApmAudio" sysTid=627
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00007351  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"ApmOutput" sysTid=628
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 00007351  /system/lib/libaudiopolicyservice.so
+  #03 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #04 pc 0000eac5  /system/lib/libutils.so
+  #05 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #06 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"AudioOut_2" sysTid=635
+  #00 pc 00010108  /system/lib/libc.so (syscall+28)
+  #01 pc 00013685  /system/lib/libc.so (__pthread_cond_timedwait_relative(pthread_cond_t*, pthread_mutex_t*, timespec const*)+56)
+  #02 pc 0002d4ef  /system/lib/libaudioflinger.so
+  #03 pc 000320b5  /system/lib/libaudioflinger.so
+  #04 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #05 pc 0000eac5  /system/lib/libutils.so
+  #06 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #07 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_1" sysTid=643
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_2" sysTid=664
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_3" sysTid=677
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_4" sysTid=1355
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_5" sysTid=19779
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+"Binder_6" sysTid=19851
+  #00 pc 00037840  /system/lib/libc.so (__ioctl+8)
+  #01 pc 0004ee85  /system/lib/libc.so (ioctl+14)
+  #02 pc 0001cb43  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+138)
+  #03 pc 0001d033  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+6)
+  #04 pc 0001d095  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+48)
+  #05 pc 00021203  /system/lib/libbinder.so
+  #06 pc 0000ef55  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+112)
+  #07 pc 0000eac5  /system/lib/libutils.so
+  #08 pc 000137b3  /system/lib/libc.so (__pthread_start(void*)+30)
+  #09 pc 00011893  /system/lib/libc.so (__start_thread+6)
+
+----- end 295 -----
